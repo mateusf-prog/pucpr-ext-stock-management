@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+*.swp
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vscode/
+.vs/
+*.code-workspace
+
+# Blazor
+wwwroot/
+dist/
+node_modules/
