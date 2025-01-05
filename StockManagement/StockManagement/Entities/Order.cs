@@ -6,6 +6,7 @@
         public Customer Customer { get; private set; }
         public List<OrderItem> Items { get; private set; }
         public DateTime? CreatedDate { get; private set; }
+        public Status Status { get; private set; }
 
         public Order(Customer customer, List<OrderItem> items)
         {
