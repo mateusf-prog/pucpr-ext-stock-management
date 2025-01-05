@@ -9,5 +9,6 @@ namespace StockManagement.Services.Interfaces
         void Create(Product product);
         Product Update(Product product);
         void Delete(Guid id);
+        void ChangeStock(Guid productId, int newWuantity);
     }
 }
